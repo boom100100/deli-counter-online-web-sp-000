@@ -26,9 +26,9 @@ def take_a_number(deli, person)
   end
 
 
-    deli.each_with_index { |name, index|
-      puts "Welcome, #{name}. You are number #{index + 1} in line."
-    }
+    #deli.each_with_index { |name, index|
+      #puts "Welcome, #{name}. You are number #{index + 1} in line."
+    #}
 end
 
 def now_serving(deli)
