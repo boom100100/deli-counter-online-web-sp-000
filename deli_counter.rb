@@ -24,6 +24,7 @@ def take_a_number(deli, person)
     deli << person
     puts "Welcome, #{person}. You are number #{deli.size} in line."
   else
+    deli << person
   end
 
 
