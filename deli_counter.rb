@@ -27,11 +27,6 @@ def take_a_number(deli, person)
     deli.push(person)
     puts "Welcome, #{person}. You are number #{deli.size} in line."
   end
-
-
-    #deli.each_with_index { |name, index|
-      #puts "Welcome, #{name}. You are number #{index + 1} in line."
-    #}
 end
 
 def now_serving(deli)
