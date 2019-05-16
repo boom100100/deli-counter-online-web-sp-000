@@ -21,7 +21,7 @@ def take_a_number(deli, person)
 
 
   if deli.size == 0
-    deli.push(person)
+    deli << person
     puts "Welcome, #{person}. You are number #{deli.size + 1} in line."
   else
   end
