@@ -18,11 +18,14 @@ def line(input)
 end
 
 def take_a_number(deli, person)
+  deli.push(person)
+
   if deli.size == 0
+    puts "Welcome, #{person}. You are number #{deli.size + 1} in line."
   else
   end
 
-    deli.push(person)
+
     deli.each_with_index { |name, index|
       puts "Welcome, #{name}. You are number #{index + 1} in line."
     }
