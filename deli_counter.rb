@@ -1,4 +1,7 @@
 # Write your code here.
+$katz_deli = []
+$other_deli = ["Logan", "Avi", "Spencer"]
+$another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 def line(input)
   if input.size == 0
@@ -27,7 +30,7 @@ end
 
 def now_serving(deli)
   if deli.size == 0
-    "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
     deli.pop
   end
