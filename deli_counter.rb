@@ -22,10 +22,10 @@ def take_a_number(deli, person)
   else
   end
 
-    deli.push(person)
-    deli.each_with_index { |name, index|
-      puts "Welcome, #{name}. You are number #{index + 1} in line."
-    }
+    deli[deli.size] = person
+    #deli.each_with_index { |name, index|
+      #puts "Welcome, #{name}. You are number #{index + 1} in line."
+    #}
 end
 
 def now_serving(deli)
